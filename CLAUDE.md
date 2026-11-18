@@ -1,6 +1,6 @@
 # Everything Claude Trading
 
-The complete trading and quantitative finance system for Claude Code. This plugin provides 18 specialized agents, 82 skills, and 20 commands covering quant research, algorithmic trading, derivatives pricing, risk management, portfolio optimization, and crypto/DeFi analysis.
+The complete trading and quantitative finance system for Claude Code. This plugin provides 18 specialized agents, 83 skills, and 20 commands covering quant research, algorithmic trading, derivatives pricing, risk management, portfolio optimization, and crypto/DeFi analysis.
 
 ## Commands
 
@@ -49,7 +49,7 @@ everything-claude-trading/
     plugin.json          # Plugin metadata
     marketplace.json     # Marketplace listing
   agents/                # 18 specialized trading agents
-  skills/                # 82 trading and quant skills
+  skills/                # 83 trading and quant skills (flat: skills/<name>/SKILL.md)
   commands/              # 20 slash command definitions
   CLAUDE.md              # This file
   AGENTS.md              # Agent orchestration guide

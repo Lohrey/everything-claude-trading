@@ -6,15 +6,15 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node ${CLAUDE_PLUGIN_ROOT}/scripts/hooks/risk-check.js"
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/hooks/risk-check.js\""
           },
           {
             "type": "command",
-            "command": "node ${CLAUDE_PLUGIN_ROOT}/scripts/hooks/backtest-validation.js"
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/hooks/backtest-validation.js\""
           },
           {
             "type": "command",
-            "command": "node ${CLAUDE_PLUGIN_ROOT}/scripts/hooks/data-quality-check.js"
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/hooks/data-quality-check.js\""
           }
         ]
       }
@@ -25,7 +25,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node ${CLAUDE_PLUGIN_ROOT}/scripts/hooks/session-start.js"
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/hooks/session-start.js\""
           }
         ]
       }

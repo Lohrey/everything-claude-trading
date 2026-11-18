@@ -1,7 +1,7 @@
 {
   "name": "everything-claude-trading",
-  "version": "1.0.0",
-  "description": "The complete trading and quantitative finance system for Claude Code — 18 specialized agents, 82 skills, 20 commands covering quant research, algo trading, derivatives, risk management, and crypto/DeFi",
+  "version": "1.0.1",
+  "description": "The complete trading and quantitative finance system for Claude Code — 18 specialized agents, 83 skills, 20 commands covering quant research, algo trading, derivatives, risk management, and crypto/DeFi",
   "author": {
     "name": "Brain Bytes",
     "url": "https://github.com/brainbytes-dev"
@@ -9,5 +9,20 @@
   "homepage": "https://github.com/brainbytes-dev/everything-claude-trading",
   "repository": "https://github.com/brainbytes-dev/everything-claude-trading",
   "license": "MIT",
-  "keywords": ["claude-code", "trading", "quant", "algorithmic-trading", "derivatives", "risk-management", "crypto", "defi", "portfolio", "backtesting", "market-microstructure", "options", "fixed-income", "volatility"]
+  "keywords": [
+    "claude-code",
+    "trading",
+    "quant",
+    "algorithmic-trading",
+    "derivatives",
+    "risk-management",
+    "crypto",
+    "defi",
+    "portfolio",
+    "backtesting",
+    "market-microstructure",
+    "options",
+    "fixed-income",
+    "volatility"
+  ]
 }

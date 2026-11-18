@@ -1,7 +1,7 @@
 {
   "name": "everything-claude-trading",
-  "version": "1.0.0",
-  "description": "The complete trading & quant finance system for Claude Code -- 18 agents, 82 skills, 20 commands",
+  "version": "1.0.1",
+  "description": "The complete trading & quant finance system for Claude Code -- 18 agents, 83 skills, 20 commands",
   "author": "Brain Bytes",
   "license": "MIT",
   "repository": {
@@ -27,8 +27,7 @@
     "ai-agents"
   ],
   "scripts": {
-    "validate": "node scripts/validate-frontmatter.js",
-    "lint": "node scripts/lint-skills.js",
-    "test": "node scripts/validate-frontmatter.js"
+    "validate": "claude plugin validate .",
+    "test": "claude plugin validate ."
   }
 }

@@ -121,7 +121,7 @@ everything-claude-trading/
     volatility-trader/       # Volatility trading
     execution-specialist/    # Trade execution optimization
     regulatory-compliance/   # Regulatory compliance checks
-  skills/                    # 82 trading and quant skills
+  skills/                    # 83 trading and quant skills (flat: skills/<name>/SKILL.md)
   commands/                  # 20 slash command definitions
   CLAUDE.md                  # Project overview
   AGENTS.md                  # This file

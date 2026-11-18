@@ -75,3 +75,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Pre-trade risk check hook
 - Post-backtest validation hook
 - Complete documentation and contributing guidelines
+
+## [1.0.1] - 2026-11-18
+
+### Fixed
+- Plugin is now installable: `marketplace.json` gets `name`, `owner` and `source: "./"`.
+- Skills flattened to `skills/<name>/SKILL.md` (Claude Code does not discover nested category folders); category kept in `metadata.category`.
+- All 82 skills get YAML frontmatter (`name`, `description`) so Claude can auto-trigger them.
+- Hook commands quote `${CLAUDE_PLUGIN_ROOT}` (paths with spaces).
+- `npm test`/`validate` now run `claude plugin validate .` (referenced scripts did not exist).
+- README: real install commands, real agent/skill/command names.
+
+### Added
+- `trading-guardrails` skill: core principles, quality gates, agent orchestration and the `rules/common` files as references (plugin root `CLAUDE.md` is not loaded by Claude Code).
